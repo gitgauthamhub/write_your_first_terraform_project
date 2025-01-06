@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region  = "ec2-13-233-118-189.ap-south-1.compute.amazonaws.com"
+  region  = ""
 }
 
 resource "aws_instance" "app_server" {
